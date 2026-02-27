@@ -27,7 +27,7 @@ public class Main {
 
         System.out.print("¿Los datos son correctos? (si/no): ");
         continuar = sc.nextLine().trim().toLowerCase(); /* esta cadena de caracteristicas se
-        usan para determinar errorres en string como mayuscolas espacios y lee los que oingrese el usuario
+        usan para determinar errorres en string como mayuscolas espacios y lee los que ingrese el usuario
 */
     } while (continuar.equals("no"));
         Mascotas2 miMascota = new Mascotas2(noMbrem, espeCie, edAd, peSo);
