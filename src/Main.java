@@ -27,7 +27,7 @@ public class Main {
 
         System.out.print("¿Los datos son correctos? (si/no): ");
         continuar = sc.nextLine().trim().toLowerCase(); /* esta cadena de caracteristicas se
-        usan para determinar errorres en string como mayuscolas espacios y lee los que ingrese el usuario
+        usan para determinar errorres en string como mayuscolas espacios y lee los que maingrese el usuario
 */
     } while (continuar.equals("no"));
         Mascotas2 miMascota = new Mascotas2(noMbrem, espeCie, edAd, peSo);
@@ -64,10 +64,10 @@ public class Main {
                 miMascota.cumplirAnios();
                 break;
             case 0:
-                System.out.println("👋 Saliendo...");
+                System.out.println(" Saliendo...");
                 break;
             default:
-                System.out.println("⚠️  Opción no válida.");
+                System.out.println("️  Opción no válida.");
         }
 
     } while(opcion !=0);

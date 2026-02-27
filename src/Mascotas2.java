@@ -96,7 +96,8 @@ public class Mascotas2 {
         System.out.println("  Especie : " + especie);
         System.out.println("  Edad    : " + edad + " año(s)");
         System.out.println("  Peso    : " + peso + " kg");
-        System.out.println("  Vacunado: "+ vacuna +" ");
+        System.out.println("  Vacunado: "+(vacuna ? "Sí " : "No ")); /*Si vacuna es true  → muestra "Sí "
+                                                                    Si vacuna es false → muestra "No "*/
 
     }
 }
