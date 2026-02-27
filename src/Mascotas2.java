@@ -76,21 +76,21 @@ public class Mascotas2 {
 
     public void alimentar(double cantidad) {
         if (cantidad < 0) {
-            System.out.println("⚠️  Error: no se permiten cantidades negativas.");
+            System.out.println("️  Error: no se permiten cantidades negativas.");
         } else {
             this.peso += cantidad;
-            System.out.println("🍖 " + nom + " fue alimentado/a. Nuevo peso: " + peso + " kg.");
+            System.out.println(" " + nom + " fue alimentado/a. Nuevo peso: " + peso + " kg.");
         }
     }
 
 
     public void cumplirAnios() {
         this.edad++;
-        System.out.println("🎂 " + nom + " cumplió un año más Edad actual: " + edad);
+        System.out.println(" " + nom + " cumplió un año más Edad actual: " + edad);
     }
     public void mostrarDatos(){
         System.out.println("─────────────────────────────────");
-        System.out.println("📋 INFORMACIÓN DE LA MASCOTA");
+        System.out.println(" INFORMACIÓN DE LA MASCOTA");
         System.out.println("─────────────────────────────────");
         System.out.println("  Nombre  : " + nom);
         System.out.println("  Especie : " + especie);
